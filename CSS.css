@@ -1,0 +1,263 @@
+/*from here the contactUs design*/
+  .bodycontact {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: cornsilk;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  background-color: cornsilk;
+}
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: cornsilk;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.contact-info {
+  margin-top: 20px;
+  background-color: cornsilk;
+  
+}
+
+/*to here the contactUs design*/
+
+/*------------------------------------------------------------------------------*/
+
+/*from here the Review design*/
+.bodyReview {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+}
+.containerReview {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  color:black;
+  background-color: cornsilk;
+  text-align: center;
+}
+.testimonial {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: cornsilk;
+}
+
+.testimonial p {
+  margin: 0;
+  background-color: cornsilk;
+}
+.inputReview[type="file"] {
+  margin-bottom: 10px;
+  background-color: cornsilk;
+}
+/*To here the Review design*/
+.homepage{
+  text-align: center;
+  background-color:cornsilk ;
+  padding: 50px;
+  margin: 50px;
+  
+}
+
+.bodyResources {
+  font-family: Arial, sans-serif;
+  background-color: cornsilk; 
+  color:black;
+  margin: 0;
+  padding: 0;
+}
+
+.containerResources {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; 
+}
+
+table {
+  margin: 0 auto 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+th {
+  background-color: cornsilk;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  header {
+    background-color: darkcyan;
+    color: black;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    font-style: normal;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color:darkcyan;
+  }
+  
+  nav ul li {
+    display: ruby; 
+    margin-right: 20px;
+    
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  li a:hover {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+  }  
+  
+  div.gallery {
+  border: 1px solid #ccc;
+  padding: 10px
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  
+}
+
+div.gallery img {
+  
+  width: max-content;
+  max-height: 100px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 6px;
+  width: 33.33%;
+  float: right;
+  background-color:cornsilk ;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: 100;
+  display: table;
+  clear: both;
+}
+
+  section {
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+    font-size: large;
+    background-color: cornsilk;
+
+  }
+  
+  .footer {
+    background-color: darkcyan;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display:inline-block;
+  }
+
+  .footer-img{
+    height: 3%;
+    width: 3%;
+    margin: 0px 15px;
+    
+  }
+  
+  
